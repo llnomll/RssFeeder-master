@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4C4C4C"
+    android:orientation="vertical"
+    tools:context="a816.android.soldesk.rssfeeder.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="신문사별 뉴스보기"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp" />
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <ListView
+        android:id="@+id/listView01"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/listviewstyle"
+        android:divider="#4C4C4C"
+        android:dividerHeight="10dp"></ListView>
+
+</LinearLayout>
